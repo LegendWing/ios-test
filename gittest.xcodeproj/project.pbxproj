@@ -39,23 +39,23 @@
 		18F7E5871610A90C00C4067F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18F7E5891610A90C00C4067F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18F7E58B1610A90C00C4067F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		18F7E58F1610A90C00C4067F /* gittest-Info.plist */ = {isa = PBXFileReference; path = "gittest-Info.plist"; sourceTree = "<group>"; };
+		18F7E58F1610A90C00C4067F /* gittest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gittest-Info.plist"; sourceTree = "<group>"; };
 		18F7E5911610A90C00C4067F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18F7E5931610A90C00C4067F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18F7E5951610A90C00C4067F /* gittest-Prefix.pch */ = {isa = PBXFileReference; path = "gittest-Prefix.pch"; sourceTree = "<group>"; };
-		18F7E5961610A90C00C4067F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F7E5951610A90C00C4067F /* gittest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gittest-Prefix.pch"; sourceTree = "<group>"; };
+		18F7E5961610A90C00C4067F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F7E5971610A90C00C4067F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18F7E59A1610A90C00C4067F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		18F7E59D1610A90C00C4067F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		18F7E59F1610A90C00C4067F /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		18F7E59F1610A90C00C4067F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		18F7E5A01610A90C00C4067F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		18F7E5A21610A90C00C4067F /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		18F7E5A21610A90C00C4067F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		18F7E5A31610A90C00C4067F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		18F7E5AA1610A90C00C4067F /* gittestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gittestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F7E5AB1610A90C00C4067F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		18F7E5B31610A90C00C4067F /* gittestTests-Info.plist */ = {isa = PBXFileReference; path = "gittestTests-Info.plist"; sourceTree = "<group>"; };
+		18F7E5B31610A90C00C4067F /* gittestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gittestTests-Info.plist"; sourceTree = "<group>"; };
 		18F7E5B51610A90C00C4067F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		18F7E5B71610A90C00C4067F /* gittestTests.h */ = {isa = PBXFileReference; path = gittestTests.h; sourceTree = "<group>"; };
+		18F7E5B71610A90C00C4067F /* gittestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gittestTests.h; sourceTree = "<group>"; };
 		18F7E5B81610A90C00C4067F /* gittestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gittestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
