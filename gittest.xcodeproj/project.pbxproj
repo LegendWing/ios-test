@@ -25,6 +25,7 @@
 		C97401E11610B51800FFE680 /* Cadrick in Resources */ = {isa = PBXBuildFile; fileRef = C97401E01610B51800FFE680 /* Cadrick */; };
 		C9A41D111610B611006A4415 /* Wat.c in Sources */ = {isa = PBXBuildFile; fileRef = C9A41D0F1610B611006A4415 /* Wat.c */; };
 		C9A41D151610B6EF006A4415 /* Zzz.c in Sources */ = {isa = PBXBuildFile; fileRef = C9A41D131610B6EF006A4415 /* Zzz.c */; };
+		C9A41D181610B88F006A4415 /* Haha.c in Sources */ = {isa = PBXBuildFile; fileRef = C9A41D161610B88F006A4415 /* Haha.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		C9A41D101610B611006A4415 /* Wat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wat.h; sourceTree = "<group>"; };
 		C9A41D131610B6EF006A4415 /* Zzz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Zzz.c; sourceTree = "<group>"; };
 		C9A41D141610B6EF006A4415 /* Zzz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zzz.h; sourceTree = "<group>"; };
+		C9A41D161610B88F006A4415 /* Haha.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Haha.c; sourceTree = "<group>"; };
+		C9A41D171610B88F006A4415 /* Haha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Haha.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 		18F7E5781610A90C00C4067F = {
 			isa = PBXGroup;
 			children = (
+				C9A41D161610B88F006A4415 /* Haha.c */,
+				C9A41D171610B88F006A4415 /* Haha.h */,
 				C9A41D131610B6EF006A4415 /* Zzz.c */,
 				C9A41D141610B6EF006A4415 /* Zzz.h */,
 				C9A41D0F1610B611006A4415 /* Wat.c */,
@@ -286,6 +291,7 @@
 				18F7E5A41610A90C00C4067F /* DetailViewController.m in Sources */,
 				C9A41D111610B611006A4415 /* Wat.c in Sources */,
 				C9A41D151610B6EF006A4415 /* Zzz.c in Sources */,
+				C9A41D181610B88F006A4415 /* Haha.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
