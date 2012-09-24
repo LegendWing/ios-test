@@ -6,6 +6,8 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+//  Test 3
+
 #import "AppDelegate.h"
 
 @implementation AppDelegate
