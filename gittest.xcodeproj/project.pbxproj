@@ -24,6 +24,7 @@
 		18F7E5B91610A90C00C4067F /* gittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7E5B81610A90C00C4067F /* gittestTests.m */; };
 		C97401E11610B51800FFE680 /* Cadrick in Resources */ = {isa = PBXBuildFile; fileRef = C97401E01610B51800FFE680 /* Cadrick */; };
 		C9A41D111610B611006A4415 /* Wat.c in Sources */ = {isa = PBXBuildFile; fileRef = C9A41D0F1610B611006A4415 /* Wat.c */; };
+		C9A41D151610B6EF006A4415 /* Zzz.c in Sources */ = {isa = PBXBuildFile; fileRef = C9A41D131610B6EF006A4415 /* Zzz.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		C97401E01610B51800FFE680 /* Cadrick */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cadrick; sourceTree = "<group>"; };
 		C9A41D0F1610B611006A4415 /* Wat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Wat.c; sourceTree = "<group>"; };
 		C9A41D101610B611006A4415 /* Wat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wat.h; sourceTree = "<group>"; };
+		C9A41D131610B6EF006A4415 /* Zzz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Zzz.c; sourceTree = "<group>"; };
+		C9A41D141610B6EF006A4415 /* Zzz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zzz.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 		18F7E5781610A90C00C4067F = {
 			isa = PBXGroup;
 			children = (
+				C9A41D131610B6EF006A4415 /* Zzz.c */,
+				C9A41D141610B6EF006A4415 /* Zzz.h */,
 				C9A41D0F1610B611006A4415 /* Wat.c */,
 				C9A41D101610B611006A4415 /* Wat.h */,
 				C97401E01610B51800FFE680 /* Cadrick */,
@@ -280,6 +285,7 @@
 				18F7E5A11610A90C00C4067F /* MasterViewController.m in Sources */,
 				18F7E5A41610A90C00C4067F /* DetailViewController.m in Sources */,
 				C9A41D111610B611006A4415 /* Wat.c in Sources */,
+				C9A41D151610B6EF006A4415 /* Zzz.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
