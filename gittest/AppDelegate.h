@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-//  Test 2
+//  Test 3
 
 #import <UIKit/UIKit.h>
 
