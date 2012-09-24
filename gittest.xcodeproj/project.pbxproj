@@ -22,6 +22,7 @@
 		18F7E5AE1610A90C00C4067F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F7E5891610A90C00C4067F /* Foundation.framework */; };
 		18F7E5B61610A90C00C4067F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18F7E5B41610A90C00C4067F /* InfoPlist.strings */; };
 		18F7E5B91610A90C00C4067F /* gittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7E5B81610A90C00C4067F /* gittestTests.m */; };
+		C97401E11610B51800FFE680 /* Cadrick in Resources */ = {isa = PBXBuildFile; fileRef = C97401E01610B51800FFE680 /* Cadrick */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +46,8 @@
 		18F7E5951610A90C00C4067F /* gittest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gittest-Prefix.pch"; sourceTree = "<group>"; };
 		18F7E5961610A90C00C4067F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F7E5971610A90C00C4067F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18F7E59A1610A90C00C4067F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		18F7E59D1610A90C00C4067F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		18F7E59A1610A90C00C4067F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		18F7E59D1610A90C00C4067F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		18F7E59F1610A90C00C4067F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		18F7E5A01610A90C00C4067F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		18F7E5A21610A90C00C4067F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		18F7E5B51610A90C00C4067F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18F7E5B71610A90C00C4067F /* gittestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gittestTests.h; sourceTree = "<group>"; };
 		18F7E5B81610A90C00C4067F /* gittestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gittestTests.m; sourceTree = "<group>"; };
+		C97401E01610B51800FFE680 /* Cadrick */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cadrick; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		18F7E5781610A90C00C4067F = {
 			isa = PBXGroup;
 			children = (
+				C97401E01610B51800FFE680 /* Cadrick */,
 				18F7E58D1610A90C00C4067F /* gittest */,
 				18F7E5B11610A90C00C4067F /* gittestTests */,
 				18F7E5861610A90C00C4067F /* Frameworks */,
@@ -232,6 +235,7 @@
 				18F7E5921610A90C00C4067F /* InfoPlist.strings in Resources */,
 				18F7E59B1610A90C00C4067F /* MainStoryboard_iPhone.storyboard in Resources */,
 				18F7E59E1610A90C00C4067F /* MainStoryboard_iPad.storyboard in Resources */,
+				C97401E11610B51800FFE680 /* Cadrick in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +453,7 @@
 				18F7E5BE1610A90C00C4067F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F7E5BF1610A90C00C4067F /* Build configuration list for PBXNativeTarget "gittestTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +462,7 @@
 				18F7E5C11610A90C00C4067F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
