@@ -11,4 +11,8 @@
 
 @implementation newfile
 
+// Starting to code
+// But I dont know what to write
+// End up I just spam random comments :P
+
 @end
