@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B8E0B516115E700082B001 /* emptyfile.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 18B8E0B416115E700082B001 /* emptyfile.rtf */; };
 		18F7E5881610A90C00C4067F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F7E5871610A90C00C4067F /* UIKit.framework */; };
 		18F7E58A1610A90C00C4067F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F7E5891610A90C00C4067F /* Foundation.framework */; };
 		18F7E58C1610A90C00C4067F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F7E58B1610A90C00C4067F /* CoreGraphics.framework */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		18643F261610BC6A00BBA410 /* siou.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = siou.h; sourceTree = "<group>"; };
+		18B8E0B416115E700082B001 /* emptyfile.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = emptyfile.rtf; sourceTree = "<group>"; };
 		18F7E5831610A90C00C4067F /* gittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F7E5871610A90C00C4067F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18F7E5891610A90C00C4067F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,9 +95,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B8E0B316115E700082B001 /* testfolder */ = {
+			isa = PBXGroup;
+			children = (
+				18B8E0B416115E700082B001 /* emptyfile.rtf */,
+			);
+			path = testfolder;
+			sourceTree = "<group>";
+		};
 		18F7E5781610A90C00C4067F = {
 			isa = PBXGroup;
 			children = (
+				18B8E0B316115E700082B001 /* testfolder */,
 				18643F261610BC6A00BBA410 /* siou.h */,
 				C9A41D161610B88F006A4415 /* Haha.c */,
 				C9A41D171610B88F006A4415 /* Haha.h */,
@@ -249,6 +260,7 @@
 				18F7E5921610A90C00C4067F /* InfoPlist.strings in Resources */,
 				18F7E59B1610A90C00C4067F /* MainStoryboard_iPhone.storyboard in Resources */,
 				18F7E59E1610A90C00C4067F /* MainStoryboard_iPad.storyboard in Resources */,
+				18B8E0B516115E700082B001 /* emptyfile.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
